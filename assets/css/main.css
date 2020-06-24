@@ -6125,7 +6125,7 @@ body {
   font-size: 14px; }
   body:before {
     content: "";
-    background: url("../images/window_lines.svg") no-repeat;
+    background: url("../images/window_lines1.svg") no-repeat;
     position: fixed;
     top: 0;
     width: 100%;
@@ -6140,7 +6140,7 @@ video {
   padding-left: 5%; }
 
 .tw-name {
-  color: #fbf8e9;
+  color: #363636;
   font-weight: bold; }
 
 .b-text {
@@ -6154,10 +6154,10 @@ video {
   float: right;
   margin-right: 15%; }
   .links a {
-    color: #fbf8e9;
+    color: #363636;
     margin: 0 30px;
     padding: 5px;
-    opacity: 0.3; }
+    opacity: 0.5; }
     .links a:hover {
       opacity: 0.8; }
 
@@ -6171,15 +6171,21 @@ video {
 .section {
   padding-top: 50px;
   padding-bottom: 100px;
-  background-color: #fffefa;
-  color: #363636; }
+  background-color: #f8f9fa;
+  color: #4f5b5f;
+  }
   .section a {
-    color: #363636; }
+    color: #4f5b5f; }
+  .section.bright_home {
+    background-color: #fbf8e9;
+    color: #343a40; }
+    .section.bright_home a {
+      color: #4f5b5f; }
   .section.dark {
-    background-color: #4d4d4d;
+    background-color: #4f5b5f;
     color: #fbf8e9; }
     .section.dark a {
-      color: #fbf8e9; }
+      color: #4f5b5f; }
   .section .title {
     font-size: 60px;
     margin: 50px 0 50px 0; }
